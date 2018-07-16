@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/time_forecast"
+    android:textSize="30sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/weather_image2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/actual_temp2"
+            android:textSize="65sp"
+            android:text="70"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"/>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="35sp"
+
+                android:id="@+id/high_temp2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <TextView
+                android:textSize="35sp"
+
+                android:id="@+id/low_temp2"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="120dp"
+
+        />
+
+
+</LinearLayout>
